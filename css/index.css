@@ -1,0 +1,107 @@
+body {
+    background-color: rgba(30, 255, 0, 0.5);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    background-color: rgba(14, 122, 0, 0.5);
+    border-radius: 15px;
+    width: 565px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    width: auto;
+    height: 100px;
+    color: #eee;
+}
+
+a:hover {
+    color: white;
+}
+
+li {
+    padding: 10px;
+    
+}
+
+li:hover {
+    background-color: rgb(92, 141, 141);
+    border-radius: 15px;
+    color: white;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.design {
+    background-color: red;
+    height: 4px;
+    width: 304px;;
+    rotate: -30deg;
+    position: absolute;
+    top: 225px;
+    left: 245px;
+    
+    
+}
+
+.arrow1 {
+    background-color: red;
+    height: 4px;
+    width: 12px;
+    rotate: -89deg;
+    position: absolute;
+    top: 153px;
+    left: 524px;
+}
+
+.arrow2 {
+    background-color: red;
+    height: 4px;
+    width: 12px;
+    rotate: 1deg;
+    position: absolute;
+    top: 145px;
+    left: 520px;
+}
+
+p {
+    width: 850px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragraphs {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: cursive;
+}
+footer  {
+    margin-top: 100px;
+}

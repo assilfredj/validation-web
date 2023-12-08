@@ -1,0 +1,55 @@
+body {
+    background-color: rgba(30, 255, 0, 0.5);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    background-color: rgba(14, 122, 0, 0.5);
+    border-radius: 15px;
+    width: 565px;
+}
+.adresse{
+    color: #0056b3;
+}
+.numero{
+    color: #0056b3;
+}
+a {
+    text-decoration: none;
+    color: black;
+    width: auto;
+    height: 100px;
+    color: #eee;
+}
+
+a:hover {
+    color: white;
+}
+li {
+    padding: 10px;
+    
+}
+
+li:hover {
+    background-color: rgb(92, 141, 141);
+    border-radius: 15px;
+    color: white;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+footer  {
+    margin-top: 100px;
+}
